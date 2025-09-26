@@ -1,0 +1,9 @@
+transformers
+scikit-learn
+python-dotenv
+sentence-transformers
+google-api-python-client
+pandas
+seaborn
+matplotlib
+tqdm
