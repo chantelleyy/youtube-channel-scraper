@@ -2,11 +2,12 @@
 <p style="font-size: 14px;">
 This project is a customizable pipeline for scraping and analyzing all videos from a specific Space/technology YouTube channel using the YouTube Data API v3. It scrapes a YouTube channel’s video data, fetching key metrics such as category IDs, titles, views, likes, descriptions, publishedAt dates, tags, and thumbnails to tackle placement strategies. The pipeline displays the top 10 most viewed videos and extracts and prints keywords (tags) from the top 5 viewed videos. Additionally, it enables the understanding of trends related to space topics through tag frequency analysis, description and tag exploration, and basic statistics like average title and description lengths, culminating in sentiment analysis of viewers' comments.</p>
 
-About Channel Scraping
+### About Channel Scraping
 This project uses a channel handle (e.g., astrum) to look up the channel ID and its upload playlist, scrape all videos in that playlist, and retrieve statistics and comments for each video. This method is ideal for content creators analyzing their own channel, researchers studying public YouTube creators, and building dashboards for channel performance insights.
 ---
 
 ## Project Structure
+<pre style="font-size: 13px;">
 youtube_channel_scraper/
 ├── config/
 │   └── config_handler.py             # Load API key from .env or config
@@ -40,7 +41,7 @@ youtube_channel_scraper/
 ├── .env                             # API key (not versioned)
 ├── .gitignore                       # Ignore .env, __pycache__, etc.
 └── README.md                        # Project overview and outputs
----
+</pre>
 
 ## Output Examples
 
